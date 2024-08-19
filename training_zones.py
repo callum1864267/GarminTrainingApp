@@ -1,7 +1,7 @@
 import pandas as pd
 
 def get_training_data():
-    zones = ["Zone 1", "Zone 2", "Zone 3", "Zone 4", "Zone 5"]
+    zones = ["UT3", "UT2", "UT1", "AT", "TR", "AC", "AP"]
     times = []
 
     print("Enter the time spent in each training zone in minutes:")
